@@ -3,6 +3,10 @@
   "displayName": "NVIDIA Material Definition Language (MDL)",
   "description": "NVIDIA Material Definition Language (MDL) syntax highlighting for Visual Studio Code.",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ardenpm/vscode-mdl-language.git"
+  },
   "engines": {
     "vscode": "^1.76.0"
   },
