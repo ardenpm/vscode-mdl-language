@@ -1,0 +1,25 @@
+{
+  "name": "mdl",
+  "displayName": "NVIDIA Material Definition Language (MDL)",
+  "description": "NVIDIA Material Definition Language (MDL) syntax highlighting for Visual Studio Code.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "mdl",
+      "aliases": ["NVIDIA Material Definition Language (MDL)", "mdl"],
+      "extensions": [".mdl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "mdl",
+      "scopeName": "source.mdl",
+      "path": "./syntaxes/mdl.tmLanguage"
+    }]
+  }
+}
